@@ -28,6 +28,7 @@ main {
 
 #container2 {
     display: grid;
+    grid-template-areas: ;
 }
 
 footer {
