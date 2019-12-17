@@ -1,37 +1,170 @@
-@media only screen and (max-width:600px) {
-#container {
-    display: grid;
-    grid-template-areas:
-    'hd'
-    'nav'
-    'mn'
-    'ft';
-    height: 100vh;
-}
+@media only screen and (max-width: 600px) {
+    #container {
+       display: grid;
+       grid-template-areas:
+       'hd'
+       'nv'
+       'mn'
+       'ft';
+       min-height:100vh;
+    }
 
-body {
-    background: rgb(75,143,158);
-    background: linear-gradient(180deg, rgba(75,143,158,1) 0%, rgba(147,189,106,1) 100%);
-}
 
-header {
-    grid-area: hd;
-    display: grid;
-    text-align: center;
-}
+    body {
+        margin: 0px;
+        background-color: rgb(94, 125, 100);
+    }
+    
+    header {
+        grid-area: hd;
+        height: 255px;
+    }
 
-nav {
-    grid-area: nav;
-    display: grid;
-}
+    #logga {
+        margin: 0px;
+        display:inline;
+        position: relative;
+        right: -10px;
+        top:-300px;
+        opacity:0.4;
+    }
+    
+    h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        font-size: 25px;
+        display: inline;
+        position: relative;
+        top:-110px;
+        left:-3px;
+        margin:15px;
+    }
 
-main {
-    grid-area: mn;
-    display: grid;
-}
+    #h5nr1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        font-size: 10px;
+        position: relative;
+        top:-115px;
+        right:2px;
+        margin:15px
+    }
 
-footer {
-    grid-area: ft;
-    display: grid;
-}
-}
+    .knappar {
+        width: auto;
+        height: 30%;
+    }
+
+    nav {
+        grid-area: nv;
+        background-color: rgb(85, 112, 91);
+        border-radius: 20px;
+        text-align: center;
+    }
+
+
+    .bilder {
+        margin: 0px 3px 0px 8px; 
+    }
+    
+    main {
+        grid-area: mn;
+        display: inline;
+        text-align: center; 
+    }
+    
+    footer {
+        grid-area: ft;
+        display: inline;
+        background-color: rgb(85, 112, 91);
+        border-radius: 50px;
+        text-align: center;
+    }
+
+    a {
+        color: black;
+    }
+    
+    }
+
+    #container1 {
+        display: grid;
+        grid-template-areas:
+        'hd'
+        'nv'
+        'mn'
+        'ft';
+        min-height:100vh;
+    }
+
+    h5 {
+        text-decoration: underline;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #textdiv1 {
+        display: grid;
+        background-color: gainsboro;
+        border-radius: 25px;
+        padding: 10px;
+        height: 2550px;
+        width: 85%;
+        font-size: 19px;
+        margin: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #container2 {
+        display: grid;
+        grid-template-areas:
+        'hd'
+        'nv'
+        'mn'
+        'ft';
+        min-height:100vh;
+    }
+
+    h5 {
+        text-decoration: underline;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #textdiv2 {
+        display: grid;
+        background-color: gainsboro;
+        border-radius: 25px;
+        padding: 10px;
+        height: 1550px;
+        width: 85%;
+        font-size: 19px;
+        margin: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #container3 {
+        display: grid;
+        grid-template-areas:
+        'hd'
+        'nv'
+        'mn'
+        'ft';
+        min-height:100vh;
+    }
+
+    h5 {
+        text-decoration: underline;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    #textdiv3 {
+        display: grid;
+        background-color: gainsboro;
+        border-radius: 25px;
+        padding: 10px;
+        height: 2550px;
+        width: 85%;
+        font-size: 19px;
+        margin: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
